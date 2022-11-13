@@ -111,12 +111,14 @@ const Player = ({
           className="skip-back"
           size="2x"
           icon={faAngleLeft}
+          color="white"
         />
         <FontAwesomeIcon
           onClick={playSongHendler}
           className="play"
           size="2x"
           icon={isPlaying ? faPause : faPlay}
+          color="white"
         />
         <FontAwesomeIcon
           onClick={() => {
@@ -125,6 +127,7 @@ const Player = ({
           className="skip-forward"
           size="2x"
           icon={faAngleRight}
+          color="white"
         />
       </div>
     </div>

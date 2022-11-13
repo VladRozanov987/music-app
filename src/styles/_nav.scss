@@ -7,12 +7,13 @@ nav {
   button {
     cursor: pointer;
     background: transparent;
-    border: 2px solid rgb(65, 65, 65);
+    border: 2px solid rgb(204, 204, 204);
     padding: .5rem;
     transition: all .3s ease;
+    color: rgb(223, 223, 223);
     &:hover {
-      background: rgb(65, 65, 65);
-      color: white;
+      background: rgb(223, 223, 223);
+      color: rgb(65, 65, 65);
     }
   }
 }
